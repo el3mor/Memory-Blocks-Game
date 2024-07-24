@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Blocks Game</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="control-btns">
+        <span>Start Game</span>
+      </div>
+    <div class="dashbord">
+        <div class="name">Hello: <span></span></div>
+        <div class="timer">Timer: <span>01:00</span></div>
+        <div class="wrong">Wrong Tries: <span></span></div>
+    </div>
+    <div class="blocks">
+        <div class="block" data-tech="ai">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/ai.png" alt="">
+            </div>
+        </div>
+        <div class="block" data-tech="ai">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/ai.png" alt="">
+            </div>
+        </div>
+
+        <div class="block" data-tech="cpu">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/cpu.png" alt="">
+            </div>
+        </div>
+        <div class="block" data-tech="cpu">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/cpu.png" alt="">
+            </div>
+        </div>
+
+        <div class="block" data-tech="education">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/education.png" alt="">
+            </div>
+        </div>
+        <div class="block" data-tech="education">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/education.png" alt="">
+            </div>
+        </div>
+
+        <div class="block" data-tech="innovation">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/innovation.png" alt="">
+            </div>
+        </div>
+        <div class="block" data-tech="innovation">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/innovation.png" alt="">
+            </div>
+        </div>
+
+        <div class="block" data-tech="learning">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/learning.png" alt="">
+            </div>
+        </div>
+        <div class="block" data-tech="learning">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/learning.png" alt="">
+            </div>
+        </div>
+
+        <div class="block" data-tech="mortarboard">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/mortarboard.png" alt="">
+            </div>
+        </div>
+        <div class="block" data-tech="mortarboard">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/mortarboard.png" alt="">
+            </div>
+        </div>
+
+        <div class="block" data-tech="plane">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/plane.png" alt="">
+            </div>
+        </div>
+        <div class="block" data-tech="plane">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/plane.png" alt="">
+            </div>
+        </div>
+
+        <div class="block" data-tech="purpose">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/purpose.png" alt="">
+            </div>
+        </div>
+        <div class="block" data-tech="purpose">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/purpose.png" alt="">
+            </div>
+        </div>
+
+        <div class="block" data-tech="motivation">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/motivation.png" alt="">
+            </div>
+        </div>
+        <div class="block" data-tech="motivation">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/motivation.png" alt="">
+            </div>
+        </div>
+
+        <div class="block" data-tech="puzzle">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/puzzle.png" alt="">
+            </div>
+        </div>
+        <div class="block" data-tech="puzzle">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/puzzle.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="pop-up">
+        <div class="status"></div>
+        <div class="gif">
+            <img id="win-gif" src="gifs/win.gif" alt="">
+            <img id="lose-gif" src="gifs/lose.gif" alt="">
+
+        </div>
+        <div class="reset-btn">Play Agin</div>
+    </div>
+    <div class="audios">
+        <audio id="start" src="audios/startGame.mp3" preload="auto"></audio>
+        <audio id="click" src="audios/click.mp3" preload="auto"></audio>
+        <audio id="sucess" src="audios/sucess.mp3"></audio>
+        <audio id="fail" src="audios/fail.mp3"></audio>
+        <audio id="win" src="audios/winGame.mp3"></audio>
+        <audio id="timeDead" src="audios/timerIsFinshed.mp3"></audio>
+    </div>
+    <div class="overlay"></div>
+    <script src="script.js"></script>
+</body>
+</html>
